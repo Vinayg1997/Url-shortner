@@ -15,7 +15,7 @@ const redisClient = redis.createClient(
   });
   
   redisClient.on("connect", async function () {
-    console.log("Connected to Redis..");
+    console.log("Connected to Group 12 Redis..");
   });
   
   //2. Prepare the functions for each command
